@@ -18,7 +18,8 @@
         <activity android:name=".PostActivity" />
         <activity android:name=".AsyncActivity" />
         <activity android:name=".DelayedActivity" />
-        <activity android:name=".TimeoutActivity"></activity>
+        <activity android:name=".TimeoutActivity" />
+        <activity android:name=".CountDownActivity"></activity>
     </application>
 
 </manifest>
