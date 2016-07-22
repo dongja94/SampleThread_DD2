@@ -29,6 +29,7 @@ public class DelayedActivity extends AppCompatActivity {
                 progress = 0;
                 downloadView.setMax(100);
                 messageView.setText("download start...");
+                mHandler.removeCallbacks(progressRunnable);
                 mHandler.post(progressRunnable);
             }
         });
